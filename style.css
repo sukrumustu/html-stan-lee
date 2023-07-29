@@ -1,16 +1,107 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: cornflowerblue;
+    color: rgb(245, 210, 210);
 }
 
 .container{
-    background-color: brown;
+    background-color: rgb(165, 42, 42, 0.8) ;
     width: 80%;
     margin: auto;
     margin-top: 30px;
     border-radius: 20px;
+
 }
+
+.heading{
+    font-family: 'Lobster', cursive;
+
+
+}
+
+#martin{
+    font-size:80px;
+    text-align: center;
+}
+
+#span1 {
+    color: rgb(44, 16, 16);
+}
+
+#img-div{
+
+    text-align: center;
+    margin: 1rem;
+    
+}
+
+#image{
+width: 400px;
+border-radius: 40px;
+box-shadow: 5px 5px 40px rgba(134, 152, 137, 0.8);
+
+}
+
+#info{
+    /* border: 1px solid black; */
+    width: 80%;
+    text-align: justify;
+    margin: 20px auto;
+    font-size: 1.5rem;
+}
+
+#marvel{
+    /* border: 2px solid black; */
+    color: rgb(44, 16, 16);
+    width: 80%;
+    margin: auto;
+    font-size: 2rem;
+
+    /* margin-left: 10%; */
+
+}
+
+ul{
+    /* border: 2px solid black; */
+    width: 77%;
+    margin: auto;
+
+}
+
+li{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    
+}
+
+
+#footer{
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+}  
+
+
+#link{
+    text-decoration: none;
+    border: 2px solid rgb(240, 240, 17);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(46, 116, 246);
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#link:hover{
+    background-color: black;
+    color:rgb(46, 116, 246);
+}
+
+
+
